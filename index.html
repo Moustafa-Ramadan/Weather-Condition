@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+<header class="bg-dark">
+  
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+        <div class="logo d-flex justify-content-center ">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="logo" >
+                </a>
+                  <div class="logo-content">
+                      <h1>Weather</h1>
+                      <p>tagline goes here</p>
+                  </div>
+                
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav w-100  d-flex justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active "  aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  "  aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  aria-current="page" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  aria-current="page" href="contact.html">Contact</a>
+              </li>
+              
+          
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+</header>
+<section id="Home" >
+    <div class="container " >
+        <form class="Find-location  d-flex justify-content-center align-items-end ">
+            <input type="text" placeholder="Find Your Location.." class="form-control rounded-pill location-input" id="SearchInput">
+            
+        </form>
+    </div>
+   
+</section>
+<div class="weather-condition bg-black py-5 ">
+    <div class="container rounded weather ">
+        <div class="row gx-0" id="weatherToday">
+            
+              
+            
+           
+               
+           
+         
+            
+        </div>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="container">
+       <div class="row">
+           <div class="col-md-8">
+                <form class="Find-location position-relative d-flex justify-content-end ">
+                    <input type="text" placeholder="Enter Your email to subscribe..." class="form-control rounded-pill location-input" >
+                    <input type="button" value="subscribe" id="Submit" class="position-absolute btn rounded-pill submit align-self-center">
+                </form>
+           </div>
+           <div class="col-md-3 col-md-offset-1">
+               <div class="social-media d-flex justify-content-center">
+                <div class="social-logo d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="social-logo d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social-logo d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-google-plus-g"></i></div>
+                <div class="social-logo d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-pinterest"></i></div>
+               </div>
+           </div>
+           <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+       </div>
+    </div>
+</footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
